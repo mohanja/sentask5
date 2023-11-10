@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+display: grid;
+place-items:center;
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(0, 255, 247),rgb(253, 192, 255));
+   
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 520px; 
+    
+}
+form{
+   
+padding: 20px;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.form-group{ 
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    margin:10px 25px;
+}
+label{
+font-size: 1.1rem;
+font-weight: bold;
+margin: 2px 0px;
+}
+input{
+    padding:10px 2px;
+    border-radius: 5px;
+   border: 3px solid #aaa; 
+}
+p{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: red;
+    visibility: hidden;
+}
+#btn{
+    margin:0px 25px;
+    padding:10px 15px;
+    border-radius: 5px;
+    background-color: rgb(28, 37, 143);
+    color: white;
+    width: 85%;
+   font-weight: bold;
+}
+
+.form-group.error p{
+    color: red;
+    visibility: visible;
+}
+.form-group.error input{
+  border-color: red;
+}
+.form-group.success p{
+color: rgb(13, 255, 0);
+}
+.form-group.success input{
+    border-color: rgb(13, 255, 0);
+}
+.container-fluid .navbar-brand{
+
+    font-size: 3.5rem;
+    font-weight: bold;
+    }
+    .container-fluid .nav-link{
+        font-weight:bold;
+        font-family:2.5rem;
+        color:#0d6efd ;
+    }
+    .container-fluid .nav-link{
+        margin-top: 15px;
+        color:#0d6efd ;
+    }
+    .arrow{
+        font-size: 3rem;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
